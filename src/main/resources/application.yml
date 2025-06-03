@@ -1,0 +1,49 @@
+server:
+  port: 8092
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: never
+database:
+  name: postgres
+  host: localhost
+  port: 5432
+  username: postgres
+  password: admin
+# To See H2 Console in Browser:
+# http://localhost:8092/h2-console
+# Enabling H2 Console
+  jpa:
+    defer-datasource-initialization: false
+application:
+  users:
+    error:
+      message:
+        "7002": "lo sentimos, no hemos podido realizar tu operación. Estamos trabajando para solucionar el inconveniente."
+        "7000": "El tiempo de conexión de memoria ha expirado."
+        "7003": "No se tiene un resultado de la consulta para precios"
+        "7004": "Los parametros de fecha son incorrectos"
+        "7005": "El correo ya registrado."
+logging:
+  level:
+    root: ${LOGGING_LEVEL_ROOT:INFO}
+app:
+  apirate:
+    url: ${BASE_URL:https://run.mocky.io/v3}
+    path: e649656e-f9a9-4153-9bf7-8cf22361f1b9
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  sql:
+    init:
+      schema-locations: classpath:data.sql
+      mode: always
+
+springdoc:
+  api-docs:
+    path: /swagger-doc/v3/api-docs
+    groups:
+      enabled: true
+  swagger-ui:
+    path: /swagger-doc/swagger-ui.html
