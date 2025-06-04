@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "c6886b94-6ed5-4f69-9966-d395ab877336",
+		"name": "ApiCallHistory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5113855"
+	},
+	"item": [
+		{
+			"name": "GetCallHistory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8092/api/calls",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8092",
+					"path": [
+						"api",
+						"calls"
+					],
+					"query": [
+						{
+							"key": "fromDate",
+							"value": "03/06/2025 10:11:59",
+							"disabled": true
+						},
+						{
+							"key": "toDate",
+							"value": "01/06/2025 10:11:59",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCall",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"number1\": 18,\r\n        \"number2\": 22  \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8092/api/calls",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8092",
+					"path": [
+						"api",
+						"calls"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
