@@ -1,4 +1,4 @@
-# mrs-call-history-rx
+![image](https://github.com/user-attachments/assets/fcc0863c-8495-4081-aebc-5e0f1a01f39f)# mrs-call-history-rx
 Challenge Backend Calls History (Spring WebFlux , Postgress compose , Redis compose , Swagger, handlerError, ReactiveRepository)
 
 **Consideraciones:**
@@ -52,7 +52,7 @@ git clone https://github.com/Smithpizarro/mrs-call-history-rx.git
 
 ## 3. Escenarios de prueba
 
-**Creacion de una peticion llamando a servicio mock rate habilitado para el calculado:**
+**3.1 Creacion de una peticion llamando a servicio mock rate habilitado para el calculado:**
 
  **Servicio Mock ok 200**
  https://run.mocky.io/v3/e649656e-f9a9-4153-9bf7-8cf22361f1b9
@@ -67,7 +67,25 @@ https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.pos
 
 ![image](https://github.com/user-attachments/assets/105b0463-1e7b-4892-a05a-05dddf00ec27)
 
+ **Resultado :** Se guardo la peticin en la Bd y guardo el rate o porcentaje en la memoria de Redis con 5min a expirar
 
+ **3.2 Creacion de una peticion llamando a servicio mock rate No habilitado :**
 
+ **Servicio Mock Error 500**
+[ https://run.mocky.io/v3/e649656e-f9a9-4153-9bf7-8cf22361f1b9](https://run.mocky.io/v3/43000da6-1324-4993-afe4-883e44ca766f)
+ 
+![image](https://github.com/user-attachments/assets/ae216608-7d05-461e-aa83-df810230ab72)
+
+Ejecutar la peticion CreateCall del postman  
+
+![image](https://github.com/user-attachments/assets/5b548037-b3e6-44c7-bc9c-13d3ebe726e5)
+
+https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.postman_collection.json
+
+![image](https://github.com/user-attachments/assets/105b0463-1e7b-4892-a05a-05dddf00ec27)
+
+ **Resultado :** Se guardo la peticiOn en la Bd y se consuto al rate o porcentaje de la memoria de Redis 
+
+ ![image](https://github.com/user-attachments/assets/1dce3407-df53-4b34-a018-ca2682383131)
 
 
