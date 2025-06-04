@@ -99,14 +99,25 @@ https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.pos
 
 Ejecutar la peticion CreateCall del postman  
 
-![image](https://github.com/user-attachments/assets/ae216608-7d05-461e-aa83-df810230ab72)
+![image](https://github.com/user-attachments/assets/89545373-aabc-4179-9e7f-00a497043a81)
 
 https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.postman_collection.json
 
-![image](https://github.com/user-attachments/assets/a8c6fca4-3f0e-4dac-998a-f880a0445f32)
+![image](https://github.com/user-attachments/assets/3abde8b6-1c1a-433b-bf32-9cf658305868)
 
 
  **Resultado :** Se guardo la petición tipo Error en la Bd, pero respondio con un mensaje de Error
 
 
-**3.4  Listado dev la peticiones guardadas en la BD**
+**3.4  Listado de la peticiones guardadas en la BD**
+
+Ejecutar la peticion GetCallHistory del postman 
+![image](https://github.com/user-attachments/assets/cedeb80f-45dc-438f-bea2-830bd4709d5c)
+
+**3.5  Ruta del swagger**
+
+http://localhost:8092/swagger-doc/webjars/swagger-ui/index.html
+![image](https://github.com/user-attachments/assets/03b57378-bad1-4b71-9d36-d77ff848846a)
+
+
+
