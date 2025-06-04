@@ -73,19 +73,40 @@ https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.pos
 
  **Servicio Mock Error 500**
 [ https://run.mocky.io/v3/e649656e-f9a9-4153-9bf7-8cf22361f1b9](https://run.mocky.io/v3/43000da6-1324-4993-afe4-883e44ca766f)
- 
-![image](https://github.com/user-attachments/assets/ae216608-7d05-461e-aa83-df810230ab72)
-
-Ejecutar la peticion CreateCall del postman  
-
-![image](https://github.com/user-attachments/assets/5b548037-b3e6-44c7-bc9c-13d3ebe726e5)
-
-https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.postman_collection.json
-
-![image](https://github.com/user-attachments/assets/105b0463-1e7b-4892-a05a-05dddf00ec27)
-
- **Resultado :** Se guardo la peticiOn en la Bd y se consuto al rate o porcentaje de la memoria de Redis 
-
  ![image](https://github.com/user-attachments/assets/1dce3407-df53-4b34-a018-ca2682383131)
 
 
+Ejecutar la peticion CreateCall del postman  
+
+![image](https://github.com/user-attachments/assets/ae216608-7d05-461e-aa83-df810230ab72)
+
+https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.postman_collection.json
+
+![image](https://github.com/user-attachments/assets/a8c6fca4-3f0e-4dac-998a-f880a0445f32)
+
+
+ **Resultado :** Se guardo la peticiOn en la Bd y se consuto al rate o porcentaje de la memoria de Redis 
+
+ **3.3  Creacion de una peticion tipo Error llamando al servicio mock rate No habilitado y la llave en la memoria ya expirado :**
+
+ **Servicio Mock Error 500**
+[ https://run.mocky.io/v3/e649656e-f9a9-4153-9bf7-8cf22361f1b9](https://run.mocky.io/v3/43000da6-1324-4993-afe4-883e44ca766f)
+
+![image](https://github.com/user-attachments/assets/2d3c2779-7f92-4c09-bcd3-220af3f81338)
+
+![image](https://github.com/user-attachments/assets/c97c25a5-b9e1-4610-bfaf-8ccdef8e2726)
+
+
+Ejecutar la peticion CreateCall del postman  
+
+![image](https://github.com/user-attachments/assets/ae216608-7d05-461e-aa83-df810230ab72)
+
+https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.postman_collection.json
+
+![image](https://github.com/user-attachments/assets/a8c6fca4-3f0e-4dac-998a-f880a0445f32)
+
+
+ **Resultado :** Se guardo la petición tipo Error en la Bd, pero respondio con un mensaje de Error
+
+
+**3.4  Listado dev la peticiones guardadas en la BD**
