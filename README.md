@@ -29,17 +29,17 @@ git clone https://github.com/Smithpizarro/mrs-call-history-rx.git
 
 5.- Seleccionar Ok.
 
-6.-  Ir Project Structure 
+6.-  Ir a Project Structure 
 
 7.-  Seleccionar seleccionar el SDK de java 17 instalado.
 
 ![image](https://github.com/user-attachments/assets/85566108-0a5a-47a5-91c1-814164fec35b)
 
-8.- En el panel Gradble , seleccion Clean y despues Install
+8.- En el panel Gradble , seleccionar Clean y despues Install
 
 ![image](https://github.com/user-attachments/assets/4259eaae-2552-4a04-b9e2-c75ef475a174)
 
-9.-  Abrir Consola ir a la ruta de proyecto
+9.-  Abrir una Consola  e ir a la ruta de proyecto
 
 ![image](https://github.com/user-attachments/assets/663cae0c-657d-427d-a58f-a7952406b791)
 
@@ -59,7 +59,15 @@ git clone https://github.com/Smithpizarro/mrs-call-history-rx.git
  
 ![image](https://github.com/user-attachments/assets/8082cc2f-a55f-4558-b4d5-6b7d7c3f375d)
 
-Ejecutar la peticion CreateCall del postman
+Ejecutar la peticion CreateCall del postman  
+
+![image](https://github.com/user-attachments/assets/5b548037-b3e6-44c7-bc9c-13d3ebe726e5)
+
+https://github.com/Smithpizarro/mrs-call-history-rx/blob/main/ApiCallHistory.postman_collection.json
+
+![image](https://github.com/user-attachments/assets/105b0463-1e7b-4892-a05a-05dddf00ec27)
+
+
 
 
 
