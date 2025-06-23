@@ -30,7 +30,7 @@ logging:
 app:
   apirate:
     url: ${BASE_URL:https://run.mocky.io/v3}
-    path: e649656e-f9a9-4153-9bf7-8cf22361f1b9
+    path: ${PATH:/43000da6-1324-4993-afe4-883e44ca766f}
 spring:
   redis:
     host: localhost
